@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.icon--a {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--a:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.icon--b {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--b:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.icon--c {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--c:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.icon--d {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--d:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.icon--e {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--e:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.icon--f {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .icon--f:after {
+    content: "";
+    font-family: "fontello";
+    font-size: 20px;
+    top: 12px;
+    left: 12px; }
+
+.block-size-x2 {
+  width: calc( 20px * 2 );
+  height: calc( 20px * 2 );
+  font-size: calc( 10px * 2 ); }
+
+.block-size-x3 {
+  width: calc( 20px * 3 );
+  height: calc( 20px * 3 );
+  font-size: calc( 10px * 3 ); }
+
+.block-size-x4 {
+  width: calc( 20px * 4 );
+  height: calc( 20px * 4 );
+  font-size: calc( 10px * 4 ); }
+
+.block-size-x5 {
+  width: calc( 20px * 5 );
+  height: calc( 20px * 5 );
+  font-size: calc( 10px * 5 ); }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+$icons: ("a": "\f121", "b": '\f512', "c": '\e801', "d": '\e802', "e": '\f07b', "f": '\f219')
+
+@each $name, $icon in $icons
+    .icon--#{$name}
+        // width: 50px
+        // height: 50px
+        border: 1px solid red
+        display: flex
+        justify-content: center
+        align-items: center
+        &:after
+            content: '#{$icon}'
+            font-family: "fontello"
+            font-size: 20px            
+            top: 12px
+            left: 12px 
+
+@for $i from 2 through 5
+    .block-size-x#{$i}
+        width: calc( 20px * #{$i} ) 
+        height: calc( 20px * #{$i} ) 
+        font-size: calc( 10px * #{$i} ) 
+
+            
+
+     
